@@ -11,3 +11,7 @@ Start a Oekosystem with 1 Manager and 2 Nodes.
 It has the default name "hadoop".
 With the flag -r we will use the public docker hub instead of our local registry, the flag -m and -n specify the images for the manager and node.
 `./startUpBlankContainers.sh -a 2 -r sbernauer -m manager:centOS -n node:centOS`{{execute}}
+
+No look for the status of the Oekosystem
+It may take a while until all containers are started
+`docker stack ps hadoop`{{execute}}
