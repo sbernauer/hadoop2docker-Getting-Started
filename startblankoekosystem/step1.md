@@ -12,6 +12,5 @@ It has the default name "hadoop".
 With the flag -r we will use the public docker hub instead of our local registry, the flag -m and -n specify the images for the manager and node.
 `./startUpBlankContainers.sh -a 2 -r sbernauer -m manager:centOS -n node:centOS`{{execute}}
 
-No look for the status of the Oekosystem
-It may take a while until all containers are started
-`docker stack ps hadoop`{{execute}}
+Now look for the status of the Oekosystem. It may take about 4 mins until all containers are started !!!
+`watch docker stack ps hadoop`{{execute}}
