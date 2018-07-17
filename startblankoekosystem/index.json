@@ -4,7 +4,7 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Set up Docker-Swarm",
         "text": "step1.md"
       },
       {
